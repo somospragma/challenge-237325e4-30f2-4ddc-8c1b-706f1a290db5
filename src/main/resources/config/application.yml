@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ecommerce-backend
+  security:
+    jwt:
+      secret: your-256-bit-secret
+
+
+src/test/java/com/ecommerce/application/auth/JwtAuthenticationFilterTest.java
